@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assinment3b</title>
+</head>
+<body>
+    <h2>Submit the Data</h2>
+    <form action="/server">
+       
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter name" name="name"/>
+        
+        <br>
+        <br>
+        
+            <label for="sex">SEX:</label>
+            <input type="radio" name="sex" id="male" value="m"/>
+            <lebel for="male">Male</lebel>
+            <input type="radio" name="sex" id="female" value="f"/>
+            <label for="female">Female</label>
+            <input type="radio" name="sex" id="other" value="o"/>
+            <label for="other" >Other</label>
+        
+        <br>
+        <br>
+           <lebel for="country">Country:</lebel>
+            <select name="country" id="country">
+                <option>Select an option</option>
+                <option value="ind">India</option>
+                <option value="nep">Nepal</option>
+                <option value="rus">Russia</option>
+                <option value="aus">Australia</option>
+                <option value="us">USA</option>
+                <option value="can">Canda</option>
+            </select>
+        <br>
+        <br>
+
+        
+            <label for="message">Message:</label>
+            <br>
+            <textarea id="message" name="msg" rows="3" cols="20"></textarea>
+        
+        <br>
+        <br>
+        
+            <input type="checkbox" name="subscribe" id="subscribe"/>
+            <lebel for="subscribe">Subscribe?</lebel>
+
+        <br>
+        <br>
+        
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
